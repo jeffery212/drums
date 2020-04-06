@@ -1,0 +1,109 @@
+body {
+  text-align: center;
+  background-color: #283149;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+/*
+  the div page-container and content-wrap are used to make the
+  page responsive
+*/
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  color: #DBEDF3;
+  font-family: sans-serif;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  padding: 70px 0;
+  box-sizing: border-box;
+  background-color: #18181a;
+  height: 2.5rem;
+}
+
+.innerFooter {
+  display: block;
+  margin: 0 auto;
+  width: 110px;
+  height: 100%;
+}
+
+
+.set {
+  margin: 5% auto;
+}
+
+
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 5px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+.images_position {
+  text-align: center;
+  width: 100%;
+  max-width: auto;
+  height: auto;
+}
+
+
+.collumn {
+  float: left;
+  position: relative;
+  left: 16%;
+  width: 180px;
+  padding: 1px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.images{
+  display: inline-;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+img{
+  text-align: center;
+}

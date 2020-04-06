@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Drum Kit</title>
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src = "app.js">
+  </script>
+</head>
+
+<body>
+  <div id="page-container">
+    <div id="content-wrap">
+
+      <!--
+        The functions that were created in the app.js file (such as playtom1)
+        are applied with the button element and their events occur because of
+        the onclick tag or onmousedown tag.
+      -->
+
+      <h1 id="title">Drum 🥁 Kit</h1>
+      <div class="set">
+        <button class=" drum" onclick = "playtom1()">w</button>
+        <button class=" drum" onclick = "playtom2()">a</button>
+        <button class=" drum" onclick = "playtom3()">s</button>
+        <button class=" drum" onclick = "playtom4()">d</button>
+        <button class=" drum" onclick = "playcrash()">j</button>
+        <button class=" drum" onclick = "playkick()">k</button>
+        <button class=" drum" onclick = "playsnare()">l</button>
+      </div>
+
+<!--
+  This section is for the images of the drums
+  The various div tags applied are to assist in the 
+  positioning of the images in the css file (styles.css file)
+-->
+
+      <div class = "images_position">
+        <div class = "row">
+          <div class = "collumn">
+            <a href="#" onclick="playtom1()">
+            <img src="images/tom1.png" alt="tom 1" class="images">
+            </a>
+          </div>
+
+          <div class = "collumn">
+            <a href="#" onmousedown="playtom2()">
+            <img src="images/tom2.png" alt="tom 2" class="images">
+            </a>
+          </div>
+
+          <div class = "collumn">
+            <a href="#" onmousedown="playtom3()">
+            <img src="images/tom3.png" alt="tom 3" class="images">
+            </a>
+          </div>
+
+          <div class = "collumn">
+            <a href="#" onmousedown="playtom4()">
+            <img src="images/tom4.png" alt="tom 4" class="images">
+            </a>
+          </div>
+
+          <div class = "collumn">
+            <a href="#" onmousedown="playcrash()">
+            <img src="images/crash.png" alt="Crash" class="images">
+            </a>
+          </div>
+
+          <div class = "collumn"> 
+            <a href="#" onmousedown="playkick()">
+            <img src="images/kick.png" alt="Kick Bass" class="images">
+            </a>
+          </div>
+
+          <div class = "collumn">
+            <a href="#" onmousedown="playsnare()">
+            <img src="./images/snare.png" alt="Snare" class="images">
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+      <footer class = "footer">
+        <div class ="innerFooter">
+          The Drum Kit.
+        </div>
+      </footer>
+    </div>
+  </div>
+
+</body>
+
+</html>
